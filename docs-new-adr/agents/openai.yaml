@@ -1,0 +1,6 @@
+interface:
+  display_name: "Docs New ADR"
+  short_description: "Create numbered architecture decision records"
+  default_prompt: "Use $docs-new-adr to create a numbered architecture decision record for this decision."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  skills:list:
+    desc: List skills declared in skills.manifest.json
+    cmds:
+      - python3 scripts/validate-skills.py --list
+
+  skills:validate:
+    desc: Validate skill protocol files and manifest consistency
+    cmds:
+      - python3 scripts/validate-skills.py
+
+  skills:install-local:
+    desc: Install skills from this checkout into a local skills directory
+    cmds:
+      - python3 scripts/install-local.py {{.CLI_ARGS}}

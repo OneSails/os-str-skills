@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "owner": "OneSails",
+    "name": "os-str-skills",
+    "defaultBranch": "main"
+  },
+  "skills": [
+    {
+      "name": "docs-scaffold",
+      "path": "docs-scaffold",
+      "description": "Scaffold the full AI-friendly docs directory standard, root AI guide files, required docs skeletons, ADR template, and project-native docs checks.",
+      "apps": {
+        "claude": true,
+        "codex": true,
+        "gemini": false,
+        "opencode": false,
+        "hermes": false
+      }
+    },
+    {
+      "name": "docs-check",
+      "path": "docs-check",
+      "description": "Audit an existing docs tree against the AI-friendly docs standard and produce a prioritized compliance report.",
+      "apps": {
+        "claude": true,
+        "codex": true,
+        "gemini": false,
+        "opencode": false,
+        "hermes": false
+      }
+    },
+    {
+      "name": "docs-new-adr",
+      "path": "docs-new-adr",
+      "description": "Create a numbered ADR with required frontmatter, sections, and supersession handling.",
+      "apps": {
+        "claude": true,
+        "codex": true,
+        "gemini": false,
+        "opencode": false,
+        "hermes": false
+      }
+    }
+  ]
+}

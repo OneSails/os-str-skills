@@ -1,0 +1,6 @@
+interface:
+  display_name: "Docs Check"
+  short_description: "Audit AI-friendly docs compliance"
+  default_prompt: "Use $docs-check to audit this repo's docs structure and report required fixes."
+policy:
+  allow_implicit_invocation: true

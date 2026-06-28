@@ -1,0 +1,6 @@
+interface:
+  display_name: "Docs Scaffold"
+  short_description: "Scaffold AI-friendly project docs"
+  default_prompt: "Use $docs-scaffold to initialize this repo's AI-friendly docs structure."
+policy:
+  allow_implicit_invocation: true
